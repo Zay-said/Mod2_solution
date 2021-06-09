@@ -1,0 +1,87 @@
+*{font-family: "Comic Sans MS"; box-sizing: border-box;}
+
+.title-container{
+    width: 90%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 175%;
+}
+
+.menu{
+    background-color: grey;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.menu-item{
+    width: 40%;
+    float: right;
+    border: 2px solid black;
+    text-align: right;
+    font-size: 125%;
+}
+
+.paragraph{
+    margin: 10px;
+    margin-top: 40px;
+    clear: both;
+}
+
+.row{
+    width:90%;
+    border: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+#chicken{
+    background-color: rgb(240, 171, 171);
+    text-align: center;
+    font-weight: bold;
+}
+#beef{
+    background-color: rgb(247, 70, 70);
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+#sushi{
+    background-color: rgb(223, 236, 165);
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Desktop Setting*/
+@media (min-width: 992px) {
+    .col-lg-4{
+        float:left;
+        background-color: white;
+        width:33.33%;
+    }
+}
+
+/*Tablet Setting*/
+@media (min-width: 768px) and (max-width:991px) {
+    .col-md-6, .col-md-12{
+        float:left;
+        background-color: white;
+    }
+    .col-md-6{
+        width:50%;
+    }
+    .col-md-12{
+        width:100%;
+    }
+}
+
+/*Mobile Setting*/
+@media (max-width: 767px){
+    .col-sm-12{
+        float:left;
+        background-color: white;
+        width:100%;
+    }
+}
